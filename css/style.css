@@ -1,0 +1,111 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #333;
+}
+
+footer p {
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+header h1 {
+  display: inline-block;
+  margin: 0;
+}
+header h1 a {
+  margin-left: 10pt;
+}
+
+header h1 a img {
+  height: 65px;
+  text-align: center;
+}
+
+header nav {
+  display: inline-block;
+  float: right;
+  margin-right: 10pt;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 5px;
+}
+
+header nav a {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+header nav a:hover {
+  background: #fff;
+  color: #000;
+}
+
+main {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+aside {
+  display: inline-block;
+  width: 25%;
+}
+
+aside H3 {
+  margin: 0;
+  padding: 10px;
+  background-color: #cff;
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+aside ul li {
+  padding: 10px;
+  background-color: #eff;
+}
+aside ul li:hover {
+  background: #b2edf2;
+}
+
+aside h4 {
+  margin: 0;
+}
+section {
+  display: inline-block;
+  width: 73.5%;
+  margin-left: 1.5%;
+  float: right;
+}
+
+section h1 {
+  margin: 0;
+}
+
+section p {
+  line-height: 1.5;
+}
+.imagePara {
+  text-align: center;
+  -display: block;
+}
+.imageChild {
+  max-width: 300px;
+}
